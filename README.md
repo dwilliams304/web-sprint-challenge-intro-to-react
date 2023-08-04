@@ -12,11 +12,11 @@ You are not allowed to collaborate during the sprint challenge.
 
 ### Project Set Up
 
-- [ ] Create a forked copy of this project
-- [ ] Clone your OWN version of the repository (Not BloomTech's by mistake!)
-- [ ] Install dependencies and use the "start" script to launch the app
-- [ ] Implement the project on the main branch, committing changes regularly
-- [ ] Push commits: `git push origin main`
+- [x] Create a forked copy of this project
+- [x] Clone your OWN version of the repository (Not BloomTech's by mistake!)
+- [x] Install dependencies and use the "start" script to launch the app
+- [x] Implement the project on the main branch, committing changes regularly
+- [x] Push commits: `git push origin main`
 
 ## Project Instructions
 
