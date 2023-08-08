@@ -58,26 +58,28 @@ function Details(props){
       }, [currentCharId])
 
 
-        if(!charInfo) return(
-          <StyledDiv>
-              <h2>Loading details...</h2>
-          </StyledDiv>
-        )
-        
+    
+    
+      
+      // function GrabMovies(url){
+          //     axios.get(url)
+          //     .then(res => {
+              //         console.log(res.data);
+              //         movieArray.push(res.data.title);
+              //     })
+              //     .catch(err => {
+                  //         console.log(err);
+                  //     }, [])
+                  //     console.log(movieArray);
+                  
+                  // }
+                  
+    if(!charInfo) return(
+        <StyledDiv>
+            <h2>Loading details...</h2>
+        </StyledDiv>
+    )
 
-    // function GrabMovies(url){
-    //     axios.get(url)
-    //     .then(res => {
-    //         console.log(res.data);
-    //         movieArray.push(res.data.title);
-    //     })
-    //     .catch(err => {
-    //         console.log(err);
-    //     }, [])
-    //     console.log(movieArray);
-        
-    // }
-        
       return(
           <StyledDiv>
             <h2>Name: {charInfo.name}</h2>

@@ -48,6 +48,7 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="Header">Characters</h1>
+      <h2>Click a character to view details!</h2>
       <StyledContainer>
         <div>
           {
